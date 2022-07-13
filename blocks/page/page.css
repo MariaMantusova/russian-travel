@@ -2,5 +2,6 @@
     background-color: #2A2C2F;
     font-family: Inter, Helvetica, sans-serif;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
