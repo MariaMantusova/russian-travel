@@ -1,0 +1,8 @@
+.header {
+    display: inline-grid;
+    grid-template: 1fr/ 1fr repeat(2, 50px);
+    align-items: center;
+    max-height: 52px;
+    max-width: 1184px;
+    width: 100%;
+}
