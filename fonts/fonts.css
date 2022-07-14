@@ -6,3 +6,12 @@
     src: url("./font-inter/Inter Web/Inter-Regular.woff2?v=3.19") format("woff2"),
          url("./font-inter/Inter Web/Inter-Regular.woff?v=3.19") format("woff");
 }
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("./font-inter/Inter Web/Inter-Black.woff2?v=3.19") format("woff2"),
+    url("./font-inter/Inter Web/Inter-Black.woff?v=3.19") format("woff");
+}
