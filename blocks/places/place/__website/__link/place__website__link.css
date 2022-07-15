@@ -3,4 +3,10 @@
     font-size: 18px;
     line-height: 1.23;
     text-underline-offset: 3px;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.place__website__link:hover {
+    opacity: 0.8;
 }
