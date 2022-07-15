@@ -1,9 +1,8 @@
 .place {
     display: grid;
-    grid-auto-flow: row;
-    grid-auto-rows: 1fr;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, minmax(min-content,max-content));
-    column-gap: 48px;
-    row-gap: 40px;
+    grid-template-rows:  repeat(2, minmax(min-content, max-content));
+    column-gap: 40px;
+    row-gap: 48px;
+    box-sizing: border-box;
 }

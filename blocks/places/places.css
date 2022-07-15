@@ -1,11 +1,9 @@
 .places {
     display: grid;
-    grid-template: 1fr/1fr;
-    grid-auto-flow: row;
-    grid-auto-rows: 1fr;
+    grid-template: 660px 584px 584px 660px 584px/1fr;
     gap: 80px;
     max-width: 984px;
     width: 100%;
     justify-items: baseline;
-    padding: 92px 0 0;
+    padding: 92px 0;
 }
