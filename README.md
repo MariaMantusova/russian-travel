@@ -18,4 +18,4 @@ ______
 * Флексбокс верстка
 * Псевдоклассы
 
-### Ссылка на GitHub Pages - (будет здесь).
+### Ссылка на GitHub Pages - https://mariamantusova.github.io/russian-travel/
