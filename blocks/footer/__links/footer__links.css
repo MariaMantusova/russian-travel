@@ -2,3 +2,24 @@
     display: flex;
     gap: 18px;
 }
+
+@media screen and (max-width: 648px) {
+    .footer__links {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, minmax(min-content, max-content));
+        gap: 15px;
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .footer__links {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, minmax(min-content, max-content));
+        gap: 32px;
+        margin: 0 0 48px;
+    }
+}

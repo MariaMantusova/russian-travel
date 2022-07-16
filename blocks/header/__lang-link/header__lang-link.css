@@ -4,8 +4,21 @@
     color: white;
     text-decoration: none;
     margin-left: 18px;
+    opacity: 1;
+    transition: opacity 0.5s ease;
 }
 
 .header__lang-link:first-of-type {
     text-decoration: underline;
+}
+
+.header__lang-link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 1.1;
+    }
 }

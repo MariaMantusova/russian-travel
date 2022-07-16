@@ -7,3 +7,27 @@
     width: 100%;
     padding: 28px 0 56px;
 }
+
+@media screen and (max-width: 1024px) {
+    .header {
+        max-width: 928px;
+        padding: 28px 0 48px;
+        grid-template: 1fr/ 1fr repeat(2, 46px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        max-width: 720px;
+        padding: 28px 0 48px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        max-width: 288px;
+        padding: 16px 0 48px;
+        height: 42px;
+        grid-template: 1fr/ 1fr repeat(2, 38px);
+    }
+}

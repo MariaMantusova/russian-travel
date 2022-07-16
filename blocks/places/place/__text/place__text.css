@@ -4,3 +4,16 @@
     max-width: 490px;
     width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .places__text {
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__text {
+        grid-column: 1;
+        grid-row: 4;
+    }
+}
