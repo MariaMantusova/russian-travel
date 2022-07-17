@@ -2,7 +2,6 @@
     display: inline-grid;
     grid-template: 1fr/ 1fr repeat(2, 50px);
     align-items: center;
-    max-height: 52px;
     max-width: 1184px;
     width: 100%;
     padding: 28px 0 56px;
@@ -19,7 +18,6 @@
 @media screen and (max-width: 768px) {
     .header {
         max-width: 720px;
-        padding: 28px 0 48px;
     }
 }
 
@@ -27,7 +25,6 @@
     .header {
         max-width: 288px;
         padding: 16px 0 48px;
-        height: 42px;
         grid-template: 1fr/ 1fr repeat(2, 38px);
     }
 }

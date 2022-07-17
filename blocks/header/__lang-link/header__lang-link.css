@@ -3,9 +3,9 @@
     line-height: 1.2;
     color: white;
     text-decoration: none;
-    margin-left: 18px;
     opacity: 1;
     transition: opacity 0.5s ease;
+    margin: 0;
 }
 
 .header__lang-link:hover {

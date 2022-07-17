@@ -5,14 +5,12 @@
     margin: 0 0 32px;
     max-width: 560px;
     text-align: center;
+    color: #FFFFFF;
 }
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 498px) {
     .cover__title {
-        font-size: 32px;
-        line-height: 1.09;
-        margin: -200px 0 16px;
-        max-width: 288px;
+        font-size: 40px;
     }
 }
 
