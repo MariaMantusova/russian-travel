@@ -11,7 +11,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 582px) {
     .place__text {
         grid-column: 1;
         grid-row: 4;
