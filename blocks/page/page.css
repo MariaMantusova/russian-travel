@@ -10,3 +10,10 @@
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
 }
+
+@media screen and (max-width: 1024px) {
+    .page {
+        max-width: 1024px;
+        width: 100%;
+    }
+}
