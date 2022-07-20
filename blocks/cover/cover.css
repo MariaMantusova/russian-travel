@@ -13,6 +13,7 @@
     .cover {
         min-height: 640px;
         min-width: 100vw;
+        overflow: hidden;
     }
 }
 
