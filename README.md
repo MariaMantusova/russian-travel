@@ -18,4 +18,8 @@ ______
 * Флексбокс верстка
 * Псевдоклассы
 
-### Ссылка на GitHub Pages - https://mariamantusova.github.io/russian-travel/
+* [Ссылка на сайт](https://mariamantusova.github.io/russian-travel/)
+
+### Планы по доработке проекта: 
+
+1. Селать переключение языков с помощью JS.
